@@ -1,0 +1,30 @@
+2022-11-02T13:48:03+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php on line 1277
+
+2022-11-02T13:57:05+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php on line 1277
+
+2022-11-02T14:04:02+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php on line 1277
+
